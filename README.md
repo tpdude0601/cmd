@@ -3,10 +3,10 @@
 
 `git clone http:blahblah.git`
 
-`git clean -nd | sed s/'^Would remove '// | xargs -I{} touch "{}.keep"` 
+`git clean -nd | sed s/'^Would remove '// | xargs -I{} touch "{}.keep"` <br/>
 모든 디렉토리 한 번에 검사해서 비어있는 디렉토리에 .keep 파일 넣기
 
-`touch .keep` 
+`touch .keep` <br/>
 .keep 파일 만들기
 
 `git commit -m "commit message"`
@@ -15,13 +15,13 @@
 
 `git add .`
 
-`git push origin main`
+`git push origin main`<br/>
 `git push`
 
-`git config --global user.email="내 이메일"`
+`git config --global user.email="내 이메일"`<br/>
 `git config --global user.name="내 이름"`
 
-`git config --local user.email="내 이메일"`
+`git config --local user.email="내 이메일"`<br/>
 `git config --local user.name="내 이름"`
 
 `git init`
